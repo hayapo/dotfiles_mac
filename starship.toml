@@ -1,0 +1,124 @@
+format = """
+$username\
+$hostname\
+$shlvl\
+$kubernetes\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$hg_branch\
+$docker_context\
+$package\
+$cmake\
+$dart\
+$dotnet\
+$elixir\
+$elm\
+$erlang\
+$golang\
+$helm\
+$java\
+$julia\
+$kotlin\
+$nim\
+$nodejs\
+$ocaml\
+$perl\
+$php\
+$purescript\
+$python\
+$ruby\
+$rust\
+$swift\
+$terraform\
+$vagrant\
+$zig\
+$nix_shell\
+$conda\
+$memory_usage\
+$aws\
+$gcloud\
+$openstack\
+$env_var\
+$crystal\
+$custom\
+$cmd_duration\
+$line_break\
+$lua\
+$jobs\
+$battery\
+$time\
+$status\
+$character"""
+
+# 新しい行の前に改行をいれるか　falseでいれない。
+add_newline = false
+
+# シンボルを "❯" から"➜"に変更する
+[character]
+success_symbol = "[▶︎](bold green)"
+# ディレクトリパスのスタイルを変更する
+error_symbol = "[⚠︎](bold red) "
+vicmd_symbol = "[ ::](#55FF55)"
+
+[directory]
+style = "bold green"
+
+[hostname]
+ssh_only = true
+disabled = false
+style = "#ffff3f"
+
+[docker_context]
+symbol = "🐋 "
+
+[git_status]
+conflicted = "🏳"
+ahead = "🏎💨"
+behind = "😰"
+#diverged = "😵"
+untracked = "🤷‍"
+#stashed = "📦"
+modified = "🍔"
+staged.value = "++"
+staged.style = "green"
+renamed = "👅"
+deleted = "🌼"
+
+[aws]
+disabled = false
+symbol = "☁️  "
+style = "#ff9900"
+
+[aws.region_aliases]
+ap-northeast-1 = "tokyo"
+ap-northeast-3 = "osaka"
+us-east-1 = "va"
+us-east-2 = "oh"
+us-west-1 = "ca"
+us-west-2 = "or"
+
+[battery]
+disabled = true
+format = "[$symbol$percentage]($style) "
+full_symbol = "🔋 "
+charging_symbol = " "
+discharging_symbol = " "
+empty_symbol = " "
+unknown_symbol = " "
+[[battery.display]]
+threshold = 100
+style = "bold blue"
+
+[time]
+disabled = false
+format =  '[\[$time\]]($format) '
+time_format = "%R"
+utc_time_offset = "9"
+time_range = "00:00:00-24:00:00"
+
+[python]
+pyenv_prefix = 'pyenv '
+pyenv_version_name = false
