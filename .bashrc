@@ -148,3 +148,4 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 exec fish
+. "$HOME/.cargo/env"

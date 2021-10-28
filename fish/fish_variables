@@ -13,6 +13,8 @@ SETUVAR Z_DATA:/Users/hayapo/\x2elocal/share/z/data
 SETUVAR Z_DATA_DIR:/Users/hayapo/\x2elocal/share/z
 SETUVAR Z_EXCLUDE:\x5e/Users/hayapo\x24
 SETUVAR __fish_initialized:3100
+SETUVAR _fisher_jorgebucaran_2F_fish_2D_nvm_files:/Users/hayapo/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e/Users/hayapo/\x2econfig/fish/functions/_nvm_list\x2efish\x1e/Users/hayapo/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e/Users/hayapo/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e/Users/hayapo/\x2econfig/fish/functions/nvm\x2efish\x1e/Users/hayapo/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e/Users/hayapo/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fish\x2dnvm
 SETUVAR fish_color_autosuggestion:707A8C
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:5CCFE6
@@ -42,4 +44,6 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR fish_user_paths:/opt/homebrew/opt/binutils/bin\x1e/opt/homebrew/opt/texinfo/bin\x1e/opt/homebrew/opt/llvm/bin\x1e/Users/saitohayato/\x2epoetry/bin\x1e/home/hayapo/\x2ecargo/env\x1e/home/hayapo/\x2ecargo/env\x1e/home/hayapo/\x2ecargo/env\x1e/home/hayapo/\x2efzf/bin
+SETUVAR fish_user_paths:/Users/hayapo/\x2epoetry/bin\x1e/opt/homebrew/opt/binutils/bin\x1e/opt/homebrew/opt/texinfo/bin\x1e/opt/homebrew/opt/llvm/bin\x1e/Users/saitohayato/\x2epoetry/bin\x1e/home/hayapo/\x2ecargo/env\x1e/home/hayapo/\x2ecargo/env\x1e/home/hayapo/\x2ecargo/env\x1e/home/hayapo/\x2efzf/bin
+SETUVAR nvm_data:/Users/hayapo/\x2elocal/share/nvm
+SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist

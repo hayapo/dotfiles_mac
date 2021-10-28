@@ -11,7 +11,10 @@ set PATH /opt/homebrew/bin $PATH
 set PATH $HOME/.nvm/bin $PATH
 set -x MNE_DATASETS_SAMPLE_PATH '/Users/hayapo/mne_data'
 fish_add_path /opt/homebrew/opt/llvm/bin
-fish_add_path /opt/homebrew/opt/binutils/bin     
+fish_add_path /opt/homebrew/opt/binutils/bin
+set PATH $HOME/.nvm $PATH
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
 
 function llvm
     set PATH /usr/local/opt/llvm/bin $PATH
@@ -54,5 +57,5 @@ starship init fish | source
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-eval /Users/hayapo/miniforge3/bin/conda "shell.fish" "hook" $argv | source
+eval /Users/hayapo/.miniforge3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<

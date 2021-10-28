@@ -1,6 +1,7 @@
 #/bin/sh
-
+tput setaf 2 && echo "Installing yarn"
+brew install yarn
 tput setaf 2 && echo "Installing Fish"
-sudo apt-get install -y fish
-ln -sf ~/dotfiles/fish ~/.config/
-ln -sf ~/dotfiles/.bashrc ~/.bashrc
+brew install fish
+ln -sf ~/dotfiles_mac/fish ~/.config/
+ln -sf ~/dotfiles_mac/.bashrc ~/.bashrc

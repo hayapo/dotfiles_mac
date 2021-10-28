@@ -58,7 +58,7 @@ add_newline = false
 
 # シンボルを "❯" から"➜"に変更する
 [character]
-success_symbol = "[▶︎](bold green)"
+success_symbol = "[▶︎ ](bold green)"
 # ディレクトリパスのスタイルを変更する
 error_symbol = "[⚠︎](bold red) "
 vicmd_symbol = "[ ::](#55FF55)"
