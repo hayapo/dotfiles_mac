@@ -15,6 +15,7 @@ fish_add_path /opt/homebrew/opt/binutils/bin
 set PATH $HOME/.nvm $PATH
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
+eval (gh completion -s fish| source)
 
 function llvm
     set PATH /usr/local/opt/llvm/bin $PATH
